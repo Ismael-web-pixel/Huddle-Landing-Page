@@ -500,6 +500,9 @@ p {
     display: flex;
     flex-direction: column;
 } 
+.sk{
+  margin: 0 auto;
+}
 
 
 
