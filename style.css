@@ -51,7 +51,6 @@ p {
     background-color: white;
     color: hsl(192, 100%, 9%);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    /* transition: all 0.3s; */
 }
 
 .Free button:hover {
@@ -228,8 +227,7 @@ p {
 
 .Div_image0 img {
     display: flex;
-    align-items: start;
-    justify-content: center;
+    padding-right: 10%;
     width: 250px;
     min-height: 100%;
     height: auto;
@@ -264,11 +262,13 @@ p {
 
 
 .footer-links {
-    margin-right: 0; 
+    padding-right: 10%; 
 }
 .footer-links ul {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 0;
     line-height: 2.2;
@@ -276,7 +276,6 @@ p {
 .footer-links a {
     color: white;
     text-decoration: none;
-    /* transition: color 0.3s; */
 }
 .footer-links a:hover {
     color: hsl(322, 100%, 66%); 
@@ -299,7 +298,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* transition: all 0.3s; */
 }
 .footer-social a:hover {
     color: hsl(322, 100%, 66%);
