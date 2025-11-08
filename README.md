@@ -27,3 +27,5 @@ HTML5
 CSS3 (Flexbox, Media Queries)
 
 Font Awesome (pour les icônes)
+
+![](./Capture%20d’écran%202025-11-08%20à%2017.45.11.png)
