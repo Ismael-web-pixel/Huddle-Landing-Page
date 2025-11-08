@@ -27,7 +27,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(./bg-hero-desktop.svg);
-    background-color: hsl(193, 100%, 96%); 
+    background-color: hsl(193); 
 }
 
 .champs1 {
@@ -51,7 +51,7 @@ p {
     background-color: white;
     color: hsl(192, 100%, 9%);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
 }
 
 .Free button:hover {
@@ -150,8 +150,8 @@ p {
 
 
 .grow, .card2, .s2 {
-    width: 50vw;
-    min-height: 50vh;
+    width: 590px;
+    min-height: 260px;
     display: flex;
     justify-content: center;
 }
@@ -163,7 +163,6 @@ p {
 .block6 {
 
     position: relative;
-    z-index: 3;
     width: 80%; 
     min-height: 400px;
     max-width: 700px;
@@ -277,7 +276,7 @@ p {
 .footer-links a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
+    /* transition: color 0.3s; */
 }
 .footer-links a:hover {
     color: hsl(322, 100%, 66%); 
@@ -300,11 +299,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
 }
 .footer-social a:hover {
     color: hsl(322, 100%, 66%);
-    border-color: hsl(322, 100%, 66%);
+    /* border-color: hsl(322, 100%, 66%); */
 }
 
 .footer-bottom {
@@ -442,7 +441,6 @@ p {
   font-size: 0.9rem;
 }
 
-} 
 .champs {
   flex-direction: column;
   align-items: center;
@@ -607,3 +605,4 @@ p {
     font-size: 0.8rem;
   }
 } 
+}
