@@ -380,14 +380,6 @@ p {
   text-align: center;
   gap: 1rem;
 }
-/* .logo img{
-  width: 50%;
-}
-.Free button{
-  margin-right: 39%;
-  padding: 7px;
-  width: 51%;
-} */
 
 .champs2{
   width: 100% !important;
@@ -413,7 +405,6 @@ p {
 
 .build button{
   width: auto;
-  /* margin-left: 38%; */
 }  
 .block4{
   flex-direction: column;
@@ -438,7 +429,6 @@ p {
   width: 90%;
 }
 .block6{
-  /* min-width: 100px; */
   min-height: 300px;
   display: flex;
   align-items: center;
@@ -451,10 +441,8 @@ p {
 .sk button{
   font-size: 0.9rem;
 }
-.sk{
-  width: 150px;  
-  margin: 0 auto;
-}
+
+} 
 .champs {
   flex-direction: column;
   align-items: center;
@@ -463,7 +451,6 @@ p {
 }
 .Div_image0 img{
   width: 50%;
-  /* margin-right: 0 auto; */
 }
 .div-icon p{
   display: flex;
@@ -514,7 +501,6 @@ p {
     flex-direction: column;
 } 
 
-}
 
 
 @media (max-width: 375px) {
@@ -571,8 +557,6 @@ p {
     display: flex;
     font-size: 1.9rem;
     white-space: wrap;
-    /* place-items: start;
-    text-align: start; */
     justify-content: center;
   }
   .champs2 >.build button{
@@ -582,41 +566,12 @@ p {
 .block6 > .Ready h1{
     display: flex;
     text-align: center;
-    /* font-size: 1.1rem; */
-    /* justify-content: center; */
   }
   .block6 >.sk button{
     font-size: 0.7rem;
     width: 100%;
-    /* margin: 0 auto; */
   }
 }
-
-/* @media (max-width: 576px) {
-    .block1 { padding: 8% 4%; }
-    .champs1 { margin-bottom: 30px; }
-    .logo img { height: 20px; }
-    .Free button { padding: 8px 30px; font-size: 0.8rem; }
-
-    .build h1 { font-size: 1.8rem; width: 100%; }
-    .build p { font-size: 0.9rem; width: 100%; }
-    .build button { font-size: 0.9rem; padding: 12px 40px; }
-
-    .block3, .block4, .block5 { padding: 30px; }
-    .loyal h1, .card1 h1, .s1 h1 { font-size: 1.5rem; }
-    .loyal p, .card1 p, .s1 p { font-size: 0.9rem; }
-    
-    .block6 {
-        width: 90%;
-        padding: 30px 20px;
-    }
-    .Ready h1 { font-size: 1.4rem; }
-    .sk button { width: 200px; font-size: 0.9rem; }
-    .div-icon, .div_p, .div_com {
-        align-items: flex-start; 
-        gap: 10px;
-    }
-} */
 
 @media (max-width: 320px) {
   body {
